@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Egusi Delicacy</string>
+    <string name="q1text">1. Egusi originated in?</string>
+    <string name="africa">Africa</string>
+    <string name="asia">Asia</string>
+    <string name="q2text">2. The English name for egusi is?</string>
+    <string name="q3text">3. Egusi is rich in which of the following nutrients?</string>
+    <string name="protein">Protein</string>
+    <string name="carbohydrate">Carbohydrate</string>
+    <string name="minerals">Minerals</string>
+    <string name="fat_and_oil">Fat and oil</string>
+    <string name="q4text">4. Egusi soup can be made with which of the following leaf vegetables?</string>
+    <string name="turnip_greens">Turnip Greens</string>
+    <string name="bitter_leaf">Bitter leaf</string>
+    <string name="q5text">5. Which ingredients is compulsory for preparing egusi soup?</string>
+    <string name="red_oil">Red oil</string>
+    <string name="tomato">Tomato</string>
+    <string name="q6text">6. Egusi soup is most popular in which tribe in Nigeria?</string>
+    <string name="q7text">7. Which country has developed a machine to shell egusi?</string>
+    <string name="q8text">8. Which of the following is a method of preparing egusi?</string>
+    <string name="fried_method">Fried method</string>
+    <string name="steaming_method">Steaming method</string>
+    <string name="caking_method">Caking method</string>
+    <string name="submit">Submit</string>
+    <string name="egusi_dish">Egusi Dish</string>
+    <string name="egusi_soup">Egusi soup</string>
+    <string name="your_name">Your Name</string>
+    <string name="name">Name</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="score">0/8</string>
+    <string name="you_scored">You Scored:</string>
+</resources>

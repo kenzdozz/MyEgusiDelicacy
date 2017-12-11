@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFAB91"
+    tools:context="com.ahtaya.chidozie.myegusidelicacy.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/egusi_dish"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/egusi1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q1text" />
+
+            <RadioGroup
+                android:id="@+id/question_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <RadioButton
+                    android:id="@+id/Africa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/africa" />
+
+                <RadioButton
+                    android:id="@+id/Asia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/asia" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q2text" />
+
+            <EditText
+                android:id="@+id/question_two"
+                android:labelFor="@id/question_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q3text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/question_three_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/protein" />
+
+                <CheckBox
+                    android:id="@+id/question_three_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/carbohydrate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/question_three_c"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/minerals" />
+
+                <CheckBox
+                    android:id="@+id/question_three_d"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fat_and_oil" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q4text" />
+
+            <RadioGroup
+                android:id="@+id/question_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/turnip_greens" />
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/bitter_leaf" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q5text" />
+
+            <RadioGroup
+                android:id="@+id/question_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/red_oil" />
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/tomato" />
+            </RadioGroup>
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q6text" />
+
+            <EditText
+                android:id="@+id/question_six"
+                android:labelFor="@id/question_six"
+                android:inputType="textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q7text" />
+
+            <EditText
+                android:id="@+id/question_seven"
+                android:labelFor="@id/question_seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:inputType="textCapWords" />
+
+            <TextView
+                style="@style/queText"
+                android:text="@string/q8text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/question_eight_a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fried_method" />
+
+                <CheckBox
+                    android:id="@+id/question_eight_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/steaming_method" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/question_eight_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caking_method" />
+
+            <Button
+                style="@style/button"
+                android:layout_marginTop="16dp"
+                android:onClick="submitQuiz"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
